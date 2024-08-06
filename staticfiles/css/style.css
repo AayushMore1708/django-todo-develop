@@ -1,0 +1,78 @@
+body{
+background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.page-header {
+  margin-top: 20px;
+  text-align: center;
+  /* already centered */
+}
+
+.page-header h1 {
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+  margin-right: 170px;
+  /* add this to center the h1 */
+}
+
+.todo-list-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* add this to center the container */
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  /* add this to center the list */
+  display: inline-block;
+  /* add this to center the list */
+}
+
+.todo-item {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  /* add this to center the item */
+}
+
+.todo-status-checkbox {
+  margin: 0 auto;
+  /* add this to center the checkbox */
+  display: inline-block;
+    cursor: pointer;
+  /* add this to center the checkbox */
+}
+
+.todo-complete {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.fa-trash-alt {
+  color: rgb(0, 0, 0);
+  margin: 0 auto;
+  /* add this to center the icon */
+  display: inline-block;
+  float:right;
+  /* add this to center the icon */
+  cursor: pointer;
+}
+
+/* add some hover effects */
+.todo-item:hover {
+  background-color: #f5f5f5;
+}
+
+.fa-trash-alt:hover {
+  color: #ff0000;
+  cursor: pointer;
+}
